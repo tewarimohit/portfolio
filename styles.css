@@ -72,3 +72,22 @@ font-size: 2rem;
 .navigation .link-active {
     font-weight: bold;
 }
+/**Header**/
+
+.hero {
+padding: 2rem;
+
+}
+.hero .hero-image {
+max-width: 350px;
+display: block;
+margin: auto;
+
+}
+.hero .hero-heading {
+
+   color: #6B7280; 
+}
+.hero .hero-heading .heading-focus {
+    color: var(--primary-color);
+}
