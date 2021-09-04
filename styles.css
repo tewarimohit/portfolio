@@ -31,6 +31,8 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link-primary {
@@ -113,6 +115,10 @@ text-align: center;
 .section {
     padding: 2rem;
 }
+.section-project {
+    padding: .5rem;
+}
+
 .section h1 {
     text-align: center;
     
@@ -135,4 +141,12 @@ border-top-right-radius: 1rem;
 }
 .footer ul {
     padding-inline-start: 0px;
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+
+}
+.txt {
+    font-size: large;
 }
