@@ -12,6 +12,10 @@ margin: 0px;
     --off-white: #F3F4F6;
 }
 
+.italic {
+font-style: italic;
+}
+
 hr {
     margin: 2rem 0rem;
 }
@@ -39,6 +43,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+margin-right: 2rem;
 }
 
 .link-secondary {
