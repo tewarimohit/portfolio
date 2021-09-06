@@ -3,7 +3,7 @@
 body {
 
     font-family: 'Montserrat', sans-serif;
-margin: 0px;
+    margin: 0px;
 }
 
 :root {
@@ -13,7 +13,7 @@ margin: 0px;
 }
 
 .italic {
-font-style: italic;
+    font-style: italic;
 }
 
 hr {
@@ -43,7 +43,17 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-margin-right: 2rem;
+    margin-right: 2rem;
+    
+    
+}
+
+.link-primary-blog {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin:auto;
+    
 }
 
 .link-secondary {
@@ -109,7 +119,7 @@ margin-right: 2rem;
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
-text-align: center;
+    text-align: center;
 }
 
 .hero .hero-heading .heading-focus {
@@ -119,15 +129,18 @@ text-align: center;
 /**Section**/
 .section {
     padding: 2rem;
+
 }
+
 .section-project {
     padding: .5rem;
 }
 
 .section h1 {
     text-align: center;
-    
+
 }
+
 .ow {
     background-color: var(--off-white);
 }
@@ -136,22 +149,26 @@ text-align: center;
 
 .footer {
     background-color: var(--primary-color);
-padding: 2rem 1rem;
-text-align: center;
-color: white;
-border-top-right-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 }
+
 .footer .link {
     color: white;
 }
+
 .footer ul {
     padding-inline-start: 0px;
 }
+
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
 
 }
+
 .txt {
     font-size: large;
 }

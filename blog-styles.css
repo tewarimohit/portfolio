@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+body {
+font-family: 'PT Serif', serif;
+margin: 0px;
+}
+
+:root {
+    --dark-grey: #6B7280;
+
+}
+.italic {
+    font-style: italic;
+}
+
+
+.hero .links {
+
+padding: 1rem 0.5rem;
+text-align: center;
+background-color: var(--dark-grey);
+
+}
+.hero .links-text {
+padding-right: 0.5rem;
+  text-decoration: none;  
+  color: white;
+  
+}
+
+.section {
+    padding: 2rem;
+}
+.container-centre {
+text-align: auto;
+
+    max-width: 600px;
+    margin: auto;
+    
+}
+.hero {
+    
+    text-align: auto;
+
+    margin: auto;
+    
+
+}
+.image {
+    padding: 2rem;
+
+}
+.image .image-one {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+
+}
+.footer {
+background-color: var(--dark-grey);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .footer-header {
+
+    font-weight: bold;
+    font-size: large;
+}
+.list-non-bullet {
+    list-style: none;
+    
+}
+.link-blog {
+    text-decoration: none;
+    color: white;
+}
+    
+
+
+
+
+
