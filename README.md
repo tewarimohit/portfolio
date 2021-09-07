@@ -20,7 +20,7 @@
 ---
 ## Direct link of my Website on Netlify app is given below.
 
-[Click Here For Direct Link.](https://portfoliotewarimohit.netlify.app/)
+[Click Here For Direct Link.](https://portfoliotewarimohit.netlify.app)
 
 ---
 ## Thank You..
