@@ -12,11 +12,7 @@
 5) The website is deployed using **Netlify** app.
 
 
-     <style>
-    p{
-        color:yellow
-    }
-    </style>
+    
 ---
 ## Direct link of my Website on Netlify app is given below.
 
