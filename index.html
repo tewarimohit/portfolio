@@ -1,84 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS3, Git, JavaScript, NodeJS, Replit, VScode, ReactJS, Netlify, projects, blogs">
+    <meta name="keywords"
+        content="HTML, CSS3, Git, JavaScript, NodeJS, Replit, VScode, ReactJS, Netlify, projects, blogs">
     <meta name="revised" content="portfoliomohit,7/9/2021">
     <meta name="author" content="Mohit Tewari">
     <title>home | portfoliomohit</title>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="util-classes.css">
 
 </head>
+
 <body>
-    
+
 
     <nav class="navigation container">
 
-        <div class="nav-brand">My Portfolio</div>
+        <div class="nav-brand">portfolio</div>
         <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-            <a class="link link-active"  href="/index.html">home</a>
-         </li>
-        <li class="list-item-inline">
-        <a class="link" href="/projects.html">projects</a>
-        
+            <li class="list-item-inline">
+                <a class="link link-active" href="/index.html">home</a>
             </li>
-        <li class="list-item-inline">
-        
-          <a class="link" href="/blogs.html">blogs</a>  
-               </li>
-        
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+
+            </li>
+            <li class="list-item-inline">
+
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+
         </ul>
-        </nav>
+    </nav>
 
-        <header class="hero">
-            <img class="hero-image" src="images/develop.svg" />
-            <h1 class="hero-heading">Mohit Tewari's First <span class="heading-focus">website</span></h1>
-    
-        </header>
+    <header class="hero">
+        <img class="hero-image" alt="main" src="images/develop.svg" />
+        <h1 class="hero-heading">Hey, I'm <span class="heading-focus">Mohit Tewari</span>, the web developer who's
+            fueled by badminton, gym sessions and
+            copious amounts of coffee. When I'm not breaking a sweat or tweaking code, you can find me dreaming up new
+            website designs and pondering the meaning of life (okay, maybe just the meaning of CSS).
+        </h1>
 
-        <section class="section ow">
-            <div class="container-centre">
-                <h1>Technologies</h1>
-        <p>I am familiar with<strong> HTML5, CSS3, Git, JavaScript, Turbo C++, NodeJS, Replit, VScode, ReactJS and Web Hosting on Netlify app.</strong></p>
+    </header>
+
+    <section class="section ow">
+        <div class="d-flex">
+            <div>
+                <img class="image-class" src="images/tech-stack.png" alt="tech">
             </div>
-        </section>
+            <div class="container-centre">
+                <h1>Tech Stack</h1>
+                <div>
+                    <p><strong>Frontend</strong> &rarr; <strong> ReactJS, JavaScript, HTML5, CSS3</strong></p>
+                    <p><strong>Backend</strong> &rarr; <strong> Spring Boot, Java, MongoDB, MongoDB Atlas and Apache
+                            Kafka</strong></p>
+                    <p><strong>Text Editor and IDE</strong> &rarr; <strong>VS Code, IntelliJ IDEA, Eclipse, Replit and
+                            CodeSandbox</strong></p>
+                    <p><strong>Version Control System</strong> &rarr; <strong>Git</strong></p>
+                    <p><strong>Pletforms for quick deployment</strong> &rarr; <strong>Vercel app and Netlify</strong>
+                    </p>
+                </div>
+            </div>
 
-        <section class="section">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="d-flex">
+            <div class="">
+                <img class="img-class pro mx-8 " src="images/project-home.jpg" alt="project">
+            </div>
             <div class="container-centre">
                 <h1>Projects</h1>
-            <p>I'd like to showcase my work and thus, you can see my projects hosted online.</p> 
-            <a class="link link-primary" href="/projects.html">BROWSE PROJECTS</a>
+                
+                <p class="txt-area"><strong>Take a look at some of my latest frontend and backend projects - they're the perfect combination of style
+                    and substance. Whether you need a website that's sleek and modern or one that packs a powerful punch,
+                    I've got you covered. So sit back, relax, and let's make some web magic happen!.</strong></p>
+                    <div class="align-center"> <a class="link link-primary" href="/projects.html">BROWSE PROJECTS</a></div>
+               
             </div>
-             </section>
+        </div>
+    </section>
 
-             <section class="section ow">
-                <div class="container-centre">
-                    <h1>Blogs</h1>
-            <p>I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
-            <a class="link link-secondary"href="/blogs.html">READ BLOGS</a>
-                </div>
-            </section>
+    <section class="section ow">
+        <div class="d-flex">
+            <div >
+                <img class="img-class pro mx-3" src="images/blog.jpg" alt="blogging">
+            </div>
+        <div class="container-centre">
+            <h1>Blogs</h1>
+            <p class="txt-area"><strong>Working on some technical and non technical blogs. I like to document my journey of learning.
+            </strong></p>
+            <div class="align-center"> <a class="link link-secondary" href="/blogs.html">READ BLOGS</a></div>
+        </div>
+    </div>
+    </section>
 
-            <footer class="footer">
-                <div class="footer-header">Connect with me on Social Media</div>
-                <ul class="social-links list-non-bullet">
-                <li class="list-item-inline">
-                    <a class="link" href="https://github.com/tewarimohit">Github
+    <footer class="footer">
+        <div class="footer-header">Connect with me on Social Media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/tewarimohit">Github
                 </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="https://www.linkedin.com/in/tewari-mohit">Linkedin
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/tewari-mohit">Linkedin
                 </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="https://twitter.com/MOHITTE41694704">Twitter
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/MOHITTE41694704">Twitter
                 </a>
-                </li>
-                </ul>
-                </footer>
+            </li>
+        </ul>
+    </footer>
 
 </body>
+
 </html>

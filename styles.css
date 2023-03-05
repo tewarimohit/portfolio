@@ -8,6 +8,7 @@ body {
 
 :root {
     --primary-color: #34D399;
+    --darker-grey: #374151;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -27,7 +28,6 @@ hr {
 
 .container-centre {
 
-    max-width: 600px;
     margin: auto;
     
 }
@@ -53,7 +53,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    margin:auto;
+   
     
 }
 
@@ -121,6 +121,7 @@ hr {
     padding-top: 1rem;
     color: var(--dark-grey);
     text-align: center;
+    font-size: 1.4rem;
 }
 
 .hero .hero-heading .heading-focus {
@@ -139,8 +140,14 @@ hr {
 
 .section h1 {
     text-align: center;
+    color: var(--primary-color);
 
 }
+
+.section p,strong {
+    color: var(--darker-grey);
+}
+
 
 .ow {
     background-color: var(--off-white);

@@ -1,0 +1,28 @@
+.mx-8 {
+    margin: 0 8rem;
+}
+.mx-3 {
+    margin: 0 3rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.img-class {
+    border-radius: .4rem;
+}
+
+.pro {
+    max-width: 700px;
+    max-height: 300px;
+   
+}
+.txt-area {
+    width: 600px;
+    line-height: 1.5rem;
+}
