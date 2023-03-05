@@ -138,6 +138,10 @@ hr {
     padding: .5rem;
 }
 
+.section-project li {
+    color: var(--darker-grey);
+}
+
 .section h1 {
     text-align: center;
     color: var(--primary-color);
